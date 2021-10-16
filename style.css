@@ -225,6 +225,11 @@ strong {
     font-size: 1rem;
   }
 
+  /* CLOUD */
+  .cloud h2 {
+    padding: 3vw;
+  }
+
   /* UTILITIES */
   .hero .grid-2 {
     grid-template-columns: 1fr;
