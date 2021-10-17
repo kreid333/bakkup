@@ -193,6 +193,29 @@ strong {
 /* GUARANTEE SECTION CODE IS WITH THE CLOUD SECTION AS THEY HAVE THE SAME CODE! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+/* FOOTER SECTION */
+.footer {
+  background-color: #484E9C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw 1vw;
+  text-align: center;
+}
+
+.footer span, .footer span a {
+  color: #fff;
+}
+
+.footer span a {
+  white-space: nowrap;
+}
+
+.footer span a:hover {
+  text-decoration: none;
+}
+
 /* UTILITIES */
 .grid {
   display: grid;
@@ -232,11 +255,12 @@ strong {
 
 .button button {
   width: 100%;
-  padding: 20px 48px;
+  padding: 20px 32px;
   background-color: #01e9c2;
   color: #2c316e;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
   text-transform: capitalize;
   text-align: center;
   border: none;
